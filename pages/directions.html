@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Value Inc. Home" />
+    <link rel="shortcut icon" href="../assets/logo-with-silver-effect.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/index.css" />
+    <link rel="stylesheet" href="../style/layout.css" />
+    <link rel="stylesheet" href="../style/directions.css" />
+    <title>Directions</title>
+  </head>
+  <body style="max-width: 1000px; margin: auto">
+    <div id="root">
+      <!-- NAVIGATION BAR -->
+      <nav class="navbar navbar-expand-md navbar-dark navigation">
+        <div class="container">
+          <!-- NAVIGATION COLLAPSE ON SMALL SCREEN -->
+          <button
+            class="navbar-toggler navbar-toggle-position"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navmenu">
+            <!-- HEADER LOGO OPTION 1 -->
+            <a class="navbar-brand" href="../index.html"
+              ><img
+                src="../assets/logo-with-silver-effect.png"
+                alt=""
+                class="header-logo"
+            /></a>
+
+            <!-- NAVIGATION ITEMS -->
+            <!-- TODO: Add correct links to new pages in anchors -->
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item nav-item-style">
+                <a href="../pages/directions.html" class="nav-link">
+                  <span class="navlink-items">Directions</span>
+                </a>
+              </li>
+              <li class="nav-item nav-item-style">
+                <a href="#" class="nav-link">
+                  <span class="navlink-items"
+                    >Hours
+                    <span class="navlink-items-color">Open Now</span></span
+                  >
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <span class="navlink-items">Contact Us</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- HEADER WITH PICTURE -->
+      <section class="header-section">
+        <img class="header-image" src="./assets/New_Lot_Photo.png" alt="" />
+      </section>
+
+      <!-- RED BAR -->
+      <section class="pad-bar"></section>
+
+      <!-- DIRECTIONS PAGE -->
+      <!-- TODO: ADD CONTENT TO DIRECTIONS PAGE -->
+      <!-- TEXT SECTION -->
+      <section className='directions-text-section'>
+        <h1 className="directions-title">
+          Directions:
+        </h1>
+        <div className='div-break'></div>
+        <p className='directions-paragraph'>
+          Value, Inc. is conveniently located at 2259 State St. (US Rt. 5) in Hamden, Connecticut, the site of the famous “Quonset Hut”.
+          <div className='div-break'></div>
+          <h4 className="directions-from">
+          From Hartford/Springfield and points North:
+          </h4>
+          <div className='div-break'></div>
+          I-91 South to Exit 10 onto the Rt. 40 connector.  Get off the connector at Exit 1.  At the end of the exit, turn right. Go to the first traffic light and turn right onto State St (Rt. 5). Go South on State St. for 2.7 miles and Value, Inc. will be on your left.
+          <div className='div-break'></div>
+          <h4 className="directions-from">
+          From Bridgeport, Fairfield County CT, CT shoreline West of New Haven, Bronx and Brooklyn NY and points West:
+          </h4>
+          <div className='div-break'></div>
+          I-95 North to New Haven then I-91 North to Exit 5.  At end of ramp, merge straight onto State St. (Rt. 5 N).  Go 2.1 miles and Value, Inc. will be on your right.
+          <div className='div-break'></div>
+          <h4 className="directions-from">
+          From New London, Providence, Boston, CT Shoreline East of New Haven:
+          </h4>
+          <div className='div-break'></div>
+          I-95 North to New Haven then I-91 North to Exit 5.  At end of ramp, merge straight onto State St. (Rt. 5 N).  Go 2.1 miles and Value, Inc. will be on your right.
+          <div className='div-break'></div>
+        </p>
+      </section>
+
+      <!-- MAP SECTION -->
+      <section className="map-section">
+        <div className="map-container">
+          <iframe className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.4632300892968!2d-72.8949767!3d41.3422841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e7d0ab1043aa45%3A0x4bd588b1b72502e1!2s2259%20State%20St%2C%20Hamden%2C%20CT%2006517!5e0!3m2!1sen!2sus!4v1662737806963!5m2!1sen!2sus" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>  
+
+      <!-- FOOTER -->
+      <nav class="footer">
+        <div class="footer-left">
+          <p class="footer-para">Value Inc, 2022</p>
+        </div>
+        <ul class="footer-list">
+          <li class="list-item">
+            <a class="list-item-a" target="_blank" rel="noreferrer" href="">
+              <img
+                class="link-image"
+                src="./assets/f_logo_RGB-White_1024.png"
+              />
+            </a>
+          </li>
+          <li>
+            <a class="list-item-a" target="_blank" rel="noreferrer" href="">
+              <img
+                class="link-image"
+                src="./assets/glyph-logo_May2016_white.png"
+              />
+            </a>
+          </li>
+          <li>
+            <a class="list-item-a" target="_blank" rel="noreferrer" href="">
+              <img class="link-image" src="./assets/Twitter_logo_white2.png" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+/* NAVBAR CSS */
+
+.navigation {
+    background-color: #000000;
+}
+
+.navbar-toggle-position {
+    margin-left: 85%;
+}
+
+.navlink-items {
+    color: #ffffff;
+    font-family: 'Britannic';
+    font-size: large;
+}
+
+.navlink-items-color {
+    color: #aa1a2d;
+}
+
+.nav-item-style {
+    margin-right: 50px;
+}
+
+.header-logo {
+    width: 33%;
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    left: 10px;
+    top: 0;
+}
+
+/* HEADER CSS */
+
+.header-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.header-image {
+    max-height: 399.5px;
+    height: auto;
+    z-index: 1;
+}
+
+.pad-bar {
+    background-color: #aa1a2d;
+    padding: 6px;
+}
+
+/* FOOTER CSS */
+
+.footer {
+    background-color: #000000;
+    align-items: center;
+    display: flex;
+}
+
+.footer-list {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 25%;
+    float: right;
+}
+
+@media (max-width:768px){
+    .footer-list {
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 60%;
+        float: right;
+    }
+}
+
+.footer-left {
+    width: 150%;
+    float: left;
+}
+
+ul > li {
+    display: inline-block;
+}
+
+.link-image {
+   width: 20px;
+   display: block;
+   margin-left: 15px;
+}
+
+.footer-para {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    text-decoration: none;
+}

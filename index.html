@@ -13,12 +13,14 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/layout.css" />
+    <link rel="stylesheet" href="./style/home.css" />
     <title>Value Inc.</title>
   </head>
   <body style="max-width: 1000px; margin: auto">
     <div id="root">
       <!-- NAVIGATION BAR -->
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark navigation">
         <div class="container">
           <!-- NAVIGATION COLLAPSE ON SMALL SCREEN -->
           <button
@@ -43,7 +45,7 @@
             <!-- TODO: Add correct links to new pages in anchors -->
             <ul class="navbar-nav ms-auto">
               <li class="nav-item nav-item-style">
-                <a href="#" class="nav-link">
+                <a href="./pages/directions.html" class="nav-link">
                   <span class="navlink-items">Directions</span>
                 </a>
               </li>
@@ -72,6 +74,114 @@
 
       <!-- RED BAR -->
       <section class="pad-bar"></section>
+
+      <!-- HOME PAGE -->
+      <!-- BUTTON SECTION -->
+      <section class="p-4">
+        <div class="container">
+          <div class="row text-center">
+
+            <div class="col-md pb-3 grid-main">
+              <a href="#">
+                <img class='grid-button' src="./assets/UniqueButton.png" />
+              </a>
+            </div>
+
+            <div class="col-md pb-3 grid-main">
+                <a href="#">
+                    <img class='grid-button' src="./assets/PurchaseLeaseButton.png" />
+                </a>
+            </div>
+
+            <div class="col-md pb-3 grid-main">
+                <a href="#">
+                <img class='grid-button' src="./assets/RentalButton.png" />
+              </a>
+            </div>
+          </div>
+
+          <div class="row text-center">
+
+            <div class="col-md pb-3 grid-main-bottom-l">
+                <a href="#">
+                <img class='grid-button-bottom' src="./assets/InventoryButton.png" />
+                </a>
+            </div>
+
+            <div class="col-md pb-3 grid-main-bottom-r">
+                <a href="#">
+                <img class='grid-button-bottom' src="./assets/PreapprovalButton.png" />
+                </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT US PICTURE -->
+      <section class='about-us-section'>
+          <img class='about-us-image' src="./assets/AboutUs.png" alt="" />
+      </section>
+
+      <!-- ABOUT US TEXT -->
+      <section class='about-us-text-section'>
+          <div class='about-us-info'>
+            <p class='about-us-paragraph'>
+              <strong>Value…</strong> it’s more than our name, it’s what we deliver!
+              <div class='div-break'></div>
+              Welcome to <strong>Value Inc.</strong>, a family owned and operated business, where we promise to deliver <strong>value</strong> to you at every stage
+              of your car buying experience.
+              <div class='div-break'></div>
+              We <strong>value</strong> your time and will show you vehicles that meet your individual needs and are carefully selected, tested, and
+              prepared to deliver long worry-free ownership.
+              <div class='div-break'></div>
+              We <strong>value</strong> your participation in the process and make sure that you get all the information you need, clearly and precisely,
+              whether you pay cash, finance, or lease your vehicle. No one understands your needs better than you, so we will offer
+              you a selection of optional products such as extended warrantees that are designed to deliver a good <strong>value</strong> for your
+              hard-earned money.
+              <div class='div-break'></div>
+              We <strong>value</strong> the trust you place in our family by purchasing or leasing your vehicle from us, and strive to build a relationship
+              that will have you coming back for your next vehicle… and your next.
+              <div class='div-break'></div>
+              As President of <strong>Value Inc.</strong>, I pride myself on delivering good, honest, old-fashioned <strong>value</strong> to each and every customer,
+              with each and every vehicle, each and every time. Come in today and let us welcome you!
+            </p>
+            <img class='signature-image' src="./assets/PeteSignature.png" alt="" />
+            <p class='p-2'>
+              Peter Saldamarco,<br/>
+              Licensed dealer, CT DMV since 1977
+            </p>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <nav class="footer">
+        <div class="footer-left">
+          <p class="footer-para">Value Inc, 2022</p>
+        </div>
+        <ul class="footer-list">
+          <li class="list-item">
+            <a class="list-item-a" target="_blank" rel="noreferrer" href="">
+              <img
+                class="link-image"
+                src="./assets/f_logo_RGB-White_1024.png"
+              />
+            </a>
+          </li>
+          <li>
+            <a class="list-item-a" target="_blank" rel="noreferrer" href="">
+              <img
+                class="link-image"
+                src="./assets/glyph-logo_May2016_white.png"
+              />
+            </a>
+          </li>
+          <li>
+            <a class="list-item-a" target="_blank" rel="noreferrer" href="">
+              <img class="link-image" src="./assets/Twitter_logo_white2.png" />
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
 
     <script
