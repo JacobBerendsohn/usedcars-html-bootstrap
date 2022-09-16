@@ -46,6 +46,14 @@
     z-index: 1;
 }
 
+@media (max-width:768px){
+    .header-image {
+        max-height: 150px;
+        height: auto;
+        z-index: 1;
+    }
+}
+
 .pad-bar {
     background-color: #aa1a2d;
     padding: 6px;
@@ -74,7 +82,7 @@
         padding: 0;
         margin-top: 10px;
         margin-bottom: 5px;
-        width: 60%;
+        width: 70%;
         float: right;
     }
 }
