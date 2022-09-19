@@ -31,6 +31,54 @@
     top: 0;
 }
 
+@media (max-width:768px){
+    .header-logo {
+        width: 33%;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        left: 10px;
+        top: 0;
+        visibility: hidden;
+    }
+}
+
+.header-logo-small-screen {
+    width: 33%;
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    visibility: hidden;
+}
+
+@media (max-width:768px){
+    .header-logo-small-screen {
+        width: 20%;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        left: 10px;
+        top: 0;
+        visibility:visible;
+    }
+}
+
+@media (max-width:550px){
+    .header-logo-small-screen {
+        width: 33%;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        left: 10px;
+        top: 0;
+        visibility:visible;
+    }
+}
+
+
+
 /* HEADER CSS */
 
 .header-section {
