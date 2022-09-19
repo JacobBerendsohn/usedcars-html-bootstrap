@@ -31,18 +31,6 @@
     top: 0;
 }
 
-@media (max-width:768px){
-    .header-logo {
-        width: 33%;
-        height: auto;
-        z-index: 2;
-        position: absolute;
-        left: 10px;
-        top: 0;
-        visibility: hidden;
-    }
-}
-
 .header-logo-small-screen {
     width: 33%;
     height: auto;
@@ -52,32 +40,6 @@
     top: 0;
     visibility: hidden;
 }
-
-@media (max-width:768px){
-    .header-logo-small-screen {
-        width: 20%;
-        height: auto;
-        z-index: 2;
-        position: absolute;
-        left: 10px;
-        top: 0;
-        visibility:visible;
-    }
-}
-
-@media (max-width:550px){
-    .header-logo-small-screen {
-        width: 33%;
-        height: auto;
-        z-index: 2;
-        position: absolute;
-        left: 10px;
-        top: 0;
-        visibility:visible;
-    }
-}
-
-
 
 /* HEADER CSS */
 
@@ -92,14 +54,6 @@
     max-height: 399.5px;
     height: auto;
     z-index: 1;
-}
-
-@media (max-width:768px){
-    .header-image {
-        max-height: 150px;
-        height: auto;
-        z-index: 1;
-    }
 }
 
 .pad-bar {
@@ -122,17 +76,6 @@
     margin-bottom: 5px;
     width: 25%;
     float: right;
-}
-
-@media (max-width:768px){
-    .footer-list {
-        margin: 0;
-        padding: 0;
-        margin-top: 10px;
-        margin-bottom: 5px;
-        width: 70%;
-        float: right;
-    }
 }
 
 .footer-left {
@@ -158,4 +101,59 @@ ul > li {
     margin: 0;
     margin-left: 20px;
     text-decoration: none;
+}
+
+@media (max-width:768px){
+    .header-logo {
+        width: 33%;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        left: 10px;
+        top: 0;
+        visibility: hidden;
+    }
+
+    .header-logo-small-screen {
+        width: 20%;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        left: 10px;
+        top: 0;
+        visibility:visible;
+    }
+
+    .header-image {
+        max-height: 250px;
+        height: auto;
+        z-index: 1;
+    }
+
+    .footer-list {
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 70%;
+        float: right;
+    }
+}
+
+@media (max-width:550px){
+    .header-logo-small-screen {
+        width: 33%;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        left: 10px;
+        top: 0;
+        visibility:visible;
+    }
+
+    .header-image {
+        max-height: 200px;
+        height: auto;
+        z-index: 1;
+    }
 }
