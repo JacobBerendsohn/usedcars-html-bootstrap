@@ -51,8 +51,7 @@
 }
 
 .header-image {
-    max-height: 399.5px;
-    height: auto;
+    max-width: 100%;
     z-index: 1;
 }
 
@@ -124,12 +123,6 @@ ul > li {
         visibility:visible;
     }
 
-    .header-image {
-        max-height: 250px;
-        height: auto;
-        z-index: 1;
-    }
-
     .footer-list {
         margin: 0;
         padding: 0;
@@ -149,11 +142,5 @@ ul > li {
         left: 10px;
         top: 0;
         visibility:visible;
-    }
-
-    .header-image {
-        max-height: 200px;
-        height: auto;
-        z-index: 1;
     }
 }
