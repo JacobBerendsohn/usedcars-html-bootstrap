@@ -74,7 +74,6 @@
     margin-top: 10px;
     margin-bottom: 5px;
     width: 25%;
-    float: right;
 }
 
 .footer-left {
@@ -102,6 +101,16 @@ ul > li {
     text-decoration: none;
 }
 
+@media (max-width:815px){
+    .footer-list {
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 70%;
+    }
+}
+
 @media (max-width:768px){
     .header-logo {
         width: 33%;
@@ -121,15 +130,6 @@ ul > li {
         left: 10px;
         top: 0;
         visibility:visible;
-    }
-
-    .footer-list {
-        margin: 0;
-        padding: 0;
-        margin-top: 10px;
-        margin-bottom: 5px;
-        width: 70%;
-        float: right;
     }
 }
 
