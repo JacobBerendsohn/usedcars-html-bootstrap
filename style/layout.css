@@ -57,7 +57,7 @@
 
 .pad-bar {
     background-color: #aa1a2d;
-    padding: 6px;
+    padding: 4px;
 }
 
 /* FOOTER CSS */
@@ -104,8 +104,9 @@ ul > li {
 /* TICKER CSS */
 .hwrap {
     overflow: hidden;
-    background: #ab1a2d;
+    background: #000000;
     color: #ffffff;
+    border-radius: 5px;
 }
 
 .hmove { display: flex; }
@@ -116,6 +117,8 @@ ul > li {
     box-sizing: border-box;
     padding: 2px;
     text-align: center;
+    font-weight: bold;
+    
 }
 
 /* ANIMATION - MOVE ITEMS FROM RIGHT TO LEFT */
