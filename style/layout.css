@@ -101,6 +101,38 @@ ul > li {
     text-decoration: none;
 }
 
+/* TICKER CSS */
+.hwrap {
+    overflow: hidden;
+    background: #ab1a2d;
+    color: #ffffff;
+}
+
+.hmove { display: flex; }
+
+.hitem {
+    flex-shrink: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2px;
+    text-align: center;
+}
+
+/* ANIMATION - MOVE ITEMS FROM RIGHT TO LEFT */
+/* 4 ITEMS -400%, CHANGE THIS IF YOU ADD/REMOVE ITEMS */
+@keyframes tickerh {
+    0% { transform: translate3d(100%, 0, 0); }
+    100% { transform: translate3d(-400%, 0, 0); }
+}
+
+.hmove {
+    animation: tickerh linear 40s infinite;
+}
+
+.hmove:hover {
+    animation-play-state: paused;
+}
+
 @media (max-width:815px){
     .footer-list {
         margin: 0;
