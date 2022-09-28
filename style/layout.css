@@ -111,6 +111,7 @@ ul > li {
 
 .hmove { display: flex; }
 
+/* Individual Items in Ticker */
 .hitem {
     flex-shrink: 0;
     width: 100%;
